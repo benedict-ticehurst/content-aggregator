@@ -1,0 +1,16 @@
+{
+  "name": "aggregator",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel --filter web --filter worker dev",
+    "dev:web": "pnpm --filter web dev",
+    "dev:worker": "pnpm --filter worker dev",
+    "db:push": "pnpm --filter @agg/db push",
+    "db:seed": "pnpm --filter @agg/db seed",
+    "test": "pnpm --filter @agg/core test",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
