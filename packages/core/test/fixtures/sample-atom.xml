@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Example Atom Feed</title>
+  <link href="https://atom.example.org/"/>
+  <updated>2026-10-30T12:00:00Z</updated>
+  <id>urn:uuid:feed</id>
+  <entry>
+    <title>Writing adapters that don't break</title>
+    <link href="https://atom.example.org/2026/adapters#comments"/>
+    <id>urn:uuid:entry-1</id>
+    <updated>2026-10-30T12:00:00Z</updated>
+    <author><name>Grace Example</name></author>
+    <summary>Validate everything at the boundary.</summary>
+  </entry>
+</feed>

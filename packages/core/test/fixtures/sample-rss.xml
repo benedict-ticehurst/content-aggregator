@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Example Dev Blog</title>
+    <link>https://example.com</link>
+    <description>Posts about building things</description>
+    <item>
+      <title>Shipping a job queue in a weekend</title>
+      <link>https://example.com/posts/job-queue/?utm_source=rss&amp;utm_medium=feed</link>
+      <pubDate>Mon, 26 Oct 2026 09:30:00 GMT</pubDate>
+      <dc:creator>Ada Example</dc:creator>
+      <description><![CDATA[<p>We needed retries, backoff and <strong>visibility</strong> into failures.</p>]]></description>
+    </item>
+    <item>
+      <title>Postgres full-text search is enough</title>
+      <link>https://example.com/posts/pg-search</link>
+      <pubDate>Fri, 23 Oct 2026 14:00:00 GMT</pubDate>
+      <description>You probably don't need a search cluster yet.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.com/posts/untitled</link>
+      <pubDate>Thu, 22 Oct 2026 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Entry with no link</title>
+      <pubDate>Wed, 21 Oct 2026 08:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
